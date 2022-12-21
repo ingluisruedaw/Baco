@@ -1,14 +1,20 @@
 # Baco Library: Holidays in diferent countries
 # *Colombia:
-immovable:
+
+Fixed date:
 * New Year.
-* Holy Thursday.
-* Holy Friday.
 * Labor Day.
 * Independence Day.
 * Boyaca's Battle.
 * Immaculate Conception's Day.
 * Christmas Day.
+
+Based on Easter:
+* Holy Thursday.
+* Holy Friday.
+* Ascension day
+* Corpus Christi
+* Sacred heart
 
 Emiliani Lay:
 * Three Kings Day.
