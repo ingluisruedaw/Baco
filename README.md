@@ -24,3 +24,23 @@ Emiliani Lay:
 * Columbus Day.
 * All Saints.
 * Independence of Cartagena.
+
+# *Venezuela:
+
+Law Of National Holidays:
+* Declaration Of Independence.
+* Carabobo's Battle.
+* Independence Day.
+* Simon Bolivar's Day.
+* Indigenous Resistance Day.
+
+LOTTT Article 184:
+* New Year.
+* Carnival Monday.
+* Carnival Tuesday.
+* Holy Thursday.
+* Holy Friday.
+* Labor Day.
+* Christmas Eve.
+* Christmas.
+* End Of The Year's Party.
