@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace Baco.HoliDay;
 
@@ -117,9 +112,6 @@ public class Venezuela
 
     public Dictionary<string, DateTime> Run()
     {
-        MonthCalendar.SelectionRange = new SelectionRange(projectStart, projectEnd);
-
-
         return new Dictionary<string, DateTime>
         {
             {

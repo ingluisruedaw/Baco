@@ -229,7 +229,7 @@ public class Colombia
                 this.Asuncion()
             },
             {
-                "Columbus dAay",
+                "Columbus Day",
                 this.ColumbusDay()
             },
             {
