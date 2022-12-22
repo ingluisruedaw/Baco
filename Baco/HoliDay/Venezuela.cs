@@ -172,4 +172,22 @@ public class Venezuela
             }
         };        
     }
+
+    public bool isWorkingDay(DateTime datetime, bool supportSaturday = true)
+    {
+        if (supportSaturday)
+        {
+            if (datetime.DayOfWeek == DayOfWeek.Saturday)
+            {
+                return false;
+            }
+        }
+
+        if (datetime.DayOfWeek == DayOfWeek.Sunday)
+        {
+            return false;
+        }
+
+        return !this.Run().Any(x => x.Value == datetime);
+    }
 }        

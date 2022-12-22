@@ -53,4 +53,9 @@ Colombia col = new Colombia(2022);
 Venezuela ve = new Venezuela(2022);
 PrintConsole(col.Run(), "Test Holidays Colombia");
 PrintConsole(ve.Run(), "Test Holidays Venezuela");
+
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine(col.isWorkingDay(new DateTime(2022,1,8)));
+
 Console.ReadKey();

@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Reflection.Emit;
 
 namespace Baco.HoliDay;
 
@@ -163,6 +162,8 @@ public class Colombia
     }
     #endregion
 
+    #region Public
+
     [DebuggerStepThrough]
     public Dictionary<string, DateTime> Run()
     {
@@ -250,4 +251,23 @@ public class Colombia
             }
         };
     }
+
+    public bool isWorkingDay(DateTime datetime, bool supportSaturday = true)
+    {
+        if (supportSaturday)
+        {
+            if (datetime.DayOfWeek == DayOfWeek.Saturday)
+            {
+                return false;
+            }
+        }
+
+        if (datetime.DayOfWeek == DayOfWeek.Sunday)
+        {
+            return false;
+        }
+
+        return !this.Run().Any(x => x.Value == datetime);
+    }
+    #endregion
 }
